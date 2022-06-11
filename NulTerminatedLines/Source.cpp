@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<Windows.h>
 using namespace std;
 
@@ -22,11 +22,11 @@ void main()
 	//cout << str << endl;
 	const int SIZE = 256;
 	char str[SIZE] = {};
-	cout << " Ââåäèòå ñòðîêó: "; 
+	cout << " Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð¾ÐºÑƒ: "; 
 	//SetConsoleCP(1251);
 	//cin >> str;
 	cin.getline(str, SIZE);
 	SetConsoleCP(866);
 	cout << str << endl;
-	cout << "Ââåäåííàÿ ñòðîêà èìååò äëèíó:" << StringLength(str) << endl;
+	cout << "Ð’Ð²ÐµÐ´ÐµÐ½Ð½Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð¸Ð¼ÐµÐµÑ‚ Ð´Ð»Ð¸Ð½Ñƒ:" << StringLength(str) << endl;
 }
